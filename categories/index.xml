@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo tranquilpeak theme</title>
+    <link>https://github.com/yljcode1/myblog.git/categories/</link>
+    <description>Recent content in Categories on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Feb 2023 09:12:56 +0800</lastBuildDate><atom:link href="https://github.com/yljcode1/myblog.git/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github</title>
+      <link>https://github.com/yljcode1/myblog.git/categories/github/</link>
+      <pubDate>Fri, 17 Feb 2023 09:12:56 +0800</pubDate>
+      
+      <guid>https://github.com/yljcode1/myblog.git/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://github.com/yljcode1/myblog.git/categories/hugo/</link>
+      <pubDate>Fri, 17 Feb 2023 09:12:56 +0800</pubDate>
+      
+      <guid>https://github.com/yljcode1/myblog.git/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>个人博客</title>
+      <link>https://github.com/yljcode1/myblog.git/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 17 Feb 2023 09:12:56 +0800</pubDate>
+      
+      <guid>https://github.com/yljcode1/myblog.git/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

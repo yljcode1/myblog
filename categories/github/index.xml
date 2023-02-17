@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Hugo tranquilpeak theme</title>
+    <link>https://github.com/yljcode1/myblog.git/categories/github/</link>
+    <description>Recent content in github on Hugo tranquilpeak theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 17 Feb 2023 09:12:56 +0800</lastBuildDate><atom:link href="https://github.com/yljcode1/myblog.git/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>win环境下Hugo快速搭建个人博客</title>
+      <link>https://github.com/yljcode1/myblog.git/2023/02/win%E7%8E%AF%E5%A2%83%E4%B8%8Bhugo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 17 Feb 2023 09:12:56 +0800</pubDate>
+      
+      <guid>https://github.com/yljcode1/myblog.git/2023/02/win%E7%8E%AF%E5%A2%83%E4%B8%8Bhugo%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>参考：hugo官网 个人搭建参考：CSDN
+1、安装Hugo环境 1、下载：github下载
+我下载的版本是：hugo_0.110.0_windows-amd64.zip
+下载完成后里面就一个hugo.exe文件,将hugo.exe文件放入D:\Hugo\bin\中（hugo.exe必须在bin目录下）
+2、配置环境变量
+将你的bin路径配置到Path的系统变量中，我这边配置的是D:\Hugo\bin\路径，配置完成后尽量重启一下电脑
+打开CMD，执行hugo version,出现下面这个则说明配置完成 2、搭建Hugo站点项目 1、初始化项目
+如果要创建站点存放在D:\Hugo\blog\目录下，在命令行切换到该目录下执行 hugo new site myBlog创建myBlog站点项目
+2、添加主题 我这边是idea打开myBlog项目，在terminal里面进入themes目录，在官网上选择你想要的主题,然后克隆下来执行 git clone [你想要主题的github地址]
+我这边执行的是
+git clone https://github.com/kakawait/hugo-tranquilpeak-theme.git
+执行后目录themes路径下多了主题文件 3、配置博客主题 1、修改配置文件 将/themes/exampleSite/config.toml里面的内容复制到最外层的config.toml，按照自己的需要自定义修改外层config.toml文件
+2、添加博客 执行命令：hugo new /posts/myFirst.md 会生成一个firstBlog.md文件
+3、启动项目 在控制台执行hugo server，会如图显示一个本地网址，打开即可看到一个博客 本地Hugo项目推送到线上github </description>
+    </item>
+    
+  </channel>
+</rss>
